@@ -1,7 +1,10 @@
-﻿namespace Lab4_Ex1.Properties
+﻿namespace Lab4_Ex1
 {
-    public class Person
+    public interface Person
     {
+        string name { get; set; }
+        string phone { get; set; }
+        string email { get; set; }
         
     }
 }
